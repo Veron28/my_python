@@ -1,0 +1,4 @@
+dog собака
+flat квартира
+family семья
+house дом
