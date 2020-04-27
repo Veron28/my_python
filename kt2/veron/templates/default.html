@@ -1,0 +1,100 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Veron (Россия) - Официальный сайт</title>
+<link rel='stylesheet' href='../static/css/index.css' type='text/css' charset='uft-8'>
+<link rel='stylesheet' href='../static/css/main.css' type='text/css' charset='uft-8'>
+<link rel='stylesheet' href='../static/css/font-awesome.min.css' type='text/css' charser='utf-8'>
+<meta name='keywords' content='candies'>
+<meta name='viewport' content='wclassth=device-wclassth, initial-scale=1'>
+<link rel='shortcut icon' href='../static/../static/img/shortcut_icon.ico' type='image/x-icon'>
+</head>
+<body>
+	<div class='wrapper'>
+		<div class='content'>
+			<header>
+				<div id='menu_show'><i class="fa fa-bars" aria-hidden="true"></i></div>
+				<div class='logo'>
+					<a href='default.php'>
+						<img src='../static/img/logo.png'>
+					</a>
+				</div>
+				<div class='menu'>
+					<a href='roulette.php'>Рулетка</a>
+					<a href='lottery.php'>Лотерея</a>
+					<a href='service.php'>Услуги</a>
+					<a href='vacancies1.php'>Вакансии</a>
+				</div>
+			</header>
+			<div id='mobile_menu'>
+					<div class='fir' ><a href='roulette.php'>Рулетка</a></div>
+					<div><a href='lottery.php'>Лотерея</a></div>
+					<div><a href='service.php'>Услуги</a></div>
+					<div><a href='vacancies1.php'>Вакансии</a></div>
+				</div>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+			<script>
+				$('#menu_show').click (function() {
+					if ($('#mobile_menu').is(':visible'))
+						$('#mobile_menu').hide ();
+					else
+						$('#mobile_menu').show ();
+				});
+			</script>
+	<div class='title'>
+			<span>На официальном сайте Верона вы можете посетить следующие разделы:<span>
+	</div>
+	<div class='info'>
+		<div class='part1'>
+			<div class='roulette'>
+				<div class='img'>
+					<a href='roulette.php'>
+						<img src='../static/img/main/roulette.png'>
+					<a>
+				</div>
+				<div class='text'>
+					<a href='info/roulette.php'><h3>Рулетка</h3></a>
+					<span>Невероятная рулетка, в которой вы можете выиграть до 20 конфет, бесплатные домашние задания, возможность бесплатно поучавстваовать в лотерее или же получить возможность получить работу в самом Вероне.</span>
+				</div>
+			</div>
+			<div class='lottery'>
+				<div class='img'>
+					<a href='info/lottery.php'>
+						<img src='../static/img/main/lottery.png'>
+					<a>
+				</div>
+				<div class='text'>
+					<a href='info/lottery.php'><h3>Лотерея</h3></a>
+					<span>Удивительная лотерея, выиграв в которой, вы сможете получить до 50 конфет. Максимальный выигрыш получают 1, 2 и 3 место, но остальные так же не останутся без приза. Для участия необходима всего лишь 1 конфета.</span>
+				</div>
+			</div>
+		</div>
+		<div class='part2'>
+			<div class='work'>
+				<div class='img'>
+					<a href='info/work.php'>
+						<img src='../static/img/main/work.png'>
+					<a>
+				</div>
+				<div class='text'>
+					<a href='info/work.php'><h3>Вакансии</h3></a>
+					<span>Устроившись в Верон, самую крупную компанию в мире, вы получите самый высокую зарплату среди ваших одноклассников, возможность дальнейшего каръерного роста и красивый вероновский бейджик. </span>
+				</div>
+			</div>
+			<div class='hw'>
+				<div class='img'>
+					<a href='info/hw.php'>
+						<img src='../static/img/main/hw.png'>
+					<a>
+				</div>
+				<div class='text'>
+					<a href='info/hw.php'><h3>Заказ ДЗ</h3></a>
+					<span>Заказав у нас ДЗ, вы получите невероятно качественно сделанную работу, которую выполняют только профессианалы Верона, обученные монахами-киборгами в горах Тибета, способные взламывать технику только лишь силой мысли.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<?php include("footer.php"); ?>

@@ -1,0 +1,230 @@
+.form {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	float: left;
+	width: 95%;
+}
+
+form {
+	margin-top: 54px;
+	width: 960px;
+	margin: 28px 0 0 -300px;
+}
+
+.data span {
+	font-size: 1.5em;
+	text-align: right;
+	display: block;
+	float: right;
+	width: 384px;
+	margin: 0 38.4px 19.2px 0;
+}
+
+.data input {
+	font-size: 1.5em;
+	display: block;
+	float: right;
+	width: 528px;
+}
+
+.classNL input {
+	width: 251.04px;
+}
+
+.first {
+	margin-left: 24px;
+}
+
+.submit input {
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 5px 9px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.submit input:hover {
+	margin-top: 2px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.submit input:active {
+	outline: none;
+	margin-top: 3px;
+	border-bottom: 0;
+}
+
+.mistake {
+	text-align: center;
+	padding: 0.5%;
+	margin: 100px 0 38.4px 430px;
+	border: 2px solid #d95b48;
+	background-color: #ec6550;
+	font-size: 1.25em;
+	width: 518px;
+	height: 27px;
+}
+
+.nomistake {
+	padding: 0.5%;
+	margin: 127px 0 42.5px 430px;
+	width: 518px;
+}
+
+
+
+@media (max-width: 1200px) and (min-width: 800px), (max-height: 700px) and (min-height: 500px) {
+	form {
+		display: block;
+		float: left;
+		width: 900px;
+		margin: 28px 0 0 -393px;
+	}
+
+.data span {
+	font-size: 1.125em;
+	text-align: right;
+	display: block;
+	float: right;
+	width: 288px;
+	margin: 0 12.8px 14.4px 0;
+}
+
+.data input {
+	font-size: 1.125em;
+	display: block;
+	float: right;
+	width: 396px;
+}
+
+.classNL input {
+	width: 188px;
+}
+
+.first {
+	margin-left: 18px;
+}
+
+.submit input {
+	width: 396px;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 1.5px 3px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.submit input:hover {
+	margin-top: 2px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.submit input:active {
+	outline: none;
+	margin-top: 3px;
+	border-bottom: 0;
+}
+
+.mistake {
+	text-align: center;
+	padding: 0.5%;
+	margin: 5px 0 12.8px 502px;
+	border: 2px solid #d95b48;
+	background-color: #ec6550;
+	font-size: 0.936em;
+	width: 387px;
+	height: 20.25px;
+}
+
+.nomistake {
+	padding: 0.5%;
+	margin: 32px 0 14.116px 0px;
+	width: 172.66px;
+}
+
+
+}
+
+@media (max-width: 800px), (max-height: 500px) {
+	form {
+		display: block;
+	float: left;
+	width: 400px;
+	margin: 5px 0 0 -150px;
+}
+
+.data span {
+	font-size: 0.5em;
+	text-align: right;
+	display: block;
+	float: right;
+	width: 128px;
+	margin: 0 12.8px 19.2px 0;
+}
+
+.data input {
+	font-size: 0.5em;
+	display: block;
+	float: right;
+	width: 176px;
+}
+
+.classNL input {
+	width: 82px;
+}
+
+.first {
+	margin-left: 8px;
+}
+
+.submit input {
+	width: 176px;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 1.5px 3px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.submit input:hover {
+	margin-top: 2px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.submit input:active {
+	outline: none;
+	margin-top: 3px;
+	border-bottom: 0;
+}
+
+.mistake {
+	text-align: center;
+	padding: 0.5%;
+	margin: 5px 0 12.8px 220px;
+	border: 2px solid #d95b48;
+	background-color: #ec6550;
+	font-size: 0.416em;
+	width: 172px;
+	height: 9px;
+}
+
+.nomistake {
+	padding: 0.5%;
+	margin: 32px 0 14.116px 0px;
+	width: 172.66px;
+}
+
+}

@@ -1,0 +1,270 @@
+.roll {
+	position: relative;
+	left: -68px;
+	margin: 10px 0 0 50%;
+	font-size: 1.35em;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 5px 9px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+.arrow {
+position: relative;
+		left: -115.2px;
+		top: -242.1px;
+		margin-left: 50%;
+		width: 230.4px;
+		height: 34.2px;
+}
+.roll:hover {
+	margin-top: 12px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.roll:active {
+	outline: none;
+	margin-top: 15px;
+	border-bottom: 0;
+}
+
+.wheel {
+	position: relative;
+	left: -225px;
+	margin: 50px 0 0 50%;
+	width: 450px;
+	height: 450px;
+	display: block;
+}
+
+.main_text {
+	font-size: 1.8em;
+	margin: 80px 25% -50px 25%;
+	padding-left: 21.4%;
+	border-bottom: 1px solid black;
+	display: block;
+	height: 45px;
+}
+
+
+.prize_list {
+	margin-top: 100px;
+	width: 450px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.winner {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px 60px 15px 60px;
+	font-size: 1.35em;
+	border-top: 1px solid black;
+}
+
+.body {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	float: left;
+}
+
+.prize_text {
+	text-align: center;
+	display: block;
+	padding: 15px;
+	font-size: 1.35em;
+}
+
+.state_list {
+	margin-top: 100px;
+	width: 450px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.img_prize {
+	/**/
+	margin-left: -75px;
+	display: block;
+	width: 45px;
+	height: 45px;
+}
+
+.winner1 {
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px 20px 15px 20px;
+	font-size: 1.17em;
+	border-top: 1px solid black;
+}
+
+.winner_text {
+	white-space: pre;
+}
+
+.imgt {
+	margin-left: -25px;
+}
+
+@media (max-width: 1600px), (max-height: 750px)
+{
+	.roll {
+	position: relative;
+	left: -45.3333px;
+	margin: 10px 0 0 50%;
+	font-size: 0.9em;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 5px 9px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.roll:hover {
+	margin-top: 12px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.roll:active {
+	outline: none;
+	margin-top: 15px;
+	border-bottom: 0;
+}
+
+.wheel {
+	position: relative;
+	left: -150px;
+	margin: 50px 0 0 50%;
+	width: 300px;
+	height: 300px;
+	display: block;
+}
+
+.main_text {
+		font-size: 1.62em;
+		margin: 72px 25% -45px 24.5%;
+		height: 40.5px;
+	}
+
+.prize_list {
+	margin-top: 66.666px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.winner {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 40px 10px 40px;
+	font-size: 0.9em;
+	border-top: 1px solid black;
+}
+
+.prize_text {
+	text-align: center;
+	display: block;
+	padding: 10px;
+	font-size: 0.9em;
+}
+
+.state_list {
+	margin-top: 66.66px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid black;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.img_prize {
+	margin-left: -50px;
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.winner1 {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 13.33px 10px 13.33px;
+	font-size: 0.78em;
+	border-top: 1px solid black;
+}
+
+
+.imgt {
+	margin-left: -16.66px;
+}
+	.arrow {
+		position: relative;
+		left: -76.8px;
+		top: -161.4px;
+		margin-left: 50%;
+		width: 153.6px;
+		height: 22.8px;
+}
+
+}
+
+@media (max-width: 1200px), (max-height: 650px){
+	.prize_list, .state_list {
+		display: none;
+	}
+
+	.wheel {
+		margin-left: 50%;
+		margin-right: 50%;
+	}
+
+	.roll {
+	margin-left: 50%;
+}
+.main_text {
+		font-size: 1.62em;
+		margin: 72px 25% -45px 21.7%;
+		height: 40.5px;
+	}
+{
+
+}
+@media (max-width: 400px){
+
+	.wheel {
+		margin-left: 55.5%;
+	}
+	.arrow {
+		margin-left: 55.5%
+	}
+	.main_text {
+		display: none;
+	}
+	.text {
+		margin-left: 50px;
+	}
+	.roll {
+		margin-left: 57.5%;
+	}
+}

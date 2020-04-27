@@ -1,0 +1,8 @@
+.main_text {
+	font-size: 2em;
+	margin: 80px 25% -50px 25%;
+	padding-left: 20%;
+	border-bottom: 1px solid black;
+	display: block;
+	height: 50px;
+}

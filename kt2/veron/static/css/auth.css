@@ -1,0 +1,134 @@
+form {
+	width: 50%;
+	margin: 2.55% 0 0 15%;
+}
+
+.data span {
+	font-size: 1.5em;
+	text-align: right;
+	display: block;
+	float: right;
+	width: 40%;
+	margin: 0 4% 2% 0;
+}
+
+.data input {
+	font-size: 1.5em;
+	display: block;
+	float: right;
+	width: 55%;
+}
+
+.submit input {
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 5px 9px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.submit input:hover {
+	margin-top: 2px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.submit input:active {
+	outline: none;
+	margin-top: 3px;
+	border-bottom: 0;
+}
+
+
+.mistake {
+	text-align: center;
+	padding: 0.5%;
+	margin: 5% 0 0 37.5%;
+	border: 2px solid #d95b48;
+	background-color: #ec6550;
+	font-size: 1.25em;
+	width: 26.25%;
+	height: 2.5%;
+}
+
+.nomistake {
+	padding: 0.5%;
+	margin: 5.25% 0 0 37.5%;
+	width: 26.25%;
+	height: 2.5%;
+}
+
+@media (max-width: 500px) {
+	form {
+		float: left;
+		width: 480px;
+		display: flex;
+		flex-direction: column;
+	margin: 100px 0 0 -210px;
+}
+.mistake {
+	text-align: center;
+	padding: 0.5%;
+	margin: 93px 0 -50px 134.5px;
+	border: 2px solid #d95b48;
+	background-color: #ec6550;
+	font-size: 0.45em;
+	width: 128px;
+	height: 1.25%;
+}
+
+.nomistake {
+	padding: 0.5%;
+	margin: 56.7px 0 0 0px;
+	width: 252px;
+	height: 1.25%;
+}
+
+.data span {
+	font-size: 0.75em;
+	text-align: right;
+	display: block;
+	float: right;
+	width: 20%;
+	margin: 0 6% 2% 0;
+}
+
+.data input {
+	font-size: 0.75em;
+	display: block;
+	float: right;
+	width: 27.5%;
+}
+
+form > div {
+	width: 480px;
+}
+
+.submit input {
+	margin-top: 5px;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	color: white;
+	text-shadow: #454545 0 0 2px;
+	border-radius: 9px;
+	padding: 5px 9px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.submit input:hover {
+	margin-top: 7px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.submit input:active {
+	outline: none;
+	margin-top: 8px;
+	border-bottom: 0;
+}
+
+}

@@ -1,0 +1,286 @@
+.picture img {
+	padding-bottom: 9px;
+	height: 50%;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+
+.article {
+	margin-top: 100px;
+	border-radius: 20px;
+	border: 2px solid #343434;
+	background-color: white;
+}
+
+.article span {
+	color: black;
+	display: block;
+	text-align: center;
+}
+
+.description {
+	text-align: justify;
+}
+
+.article a {
+	text-align: center;
+	display: block;
+	width: 28.8%;
+	border-radius: 5px;
+	padding: 5px 14px;
+	margin: 0 15px 0 15px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.article a:hover {
+	margin-top: 2px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.article a:active {
+	margin-top: 5px;
+	border-bottom: 0;
+}
+
+.articles {
+	width: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.main_text {
+	margin: 72px 25% -45px 25%;
+	text-align: center;
+	border-bottom: 1px solid black;
+	display: block;
+}
+
+.pages {
+	width: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page_btn, .page_btn1 {
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #ec6550;
+	border-bottom: 5px solid #d95b48;
+}
+
+.page_btn:hover, .page_btn1:hover {
+	margin-top: 64.8px;
+	border-bottom: 3px solid #d95b48;
+}
+
+.page_btn:active, .page_btn1:active {
+	margin-top: 67.8px;
+	border-bottom: 0;
+}
+@media (min-height: 826px) {
+	.page_btn, .page_btn1 {
+		font-size: 1.35em;
+		margin: 63px 1% 0 1%;
+	}
+
+	.page_btn:hover, .page_btn1:hover {
+		margin-top: 64.8px;
+	}
+
+	.page_btn:active, .page_btn1:active {
+		margin-top: 67.8px;
+	}
+
+	.page_btn {
+		padding: 7px 18px;
+	}
+
+	.page_btn1 {
+		padding: 1px 14px;
+	}
+}
+
+@media (min-width: 1351px) {
+
+	.picture img {
+		width: 432px;
+	}
+
+	.article {
+		width: 432px;
+		height: 480px;
+	}
+
+	.article span {
+		font-size: 1.35em;
+	}
+
+	.description {
+		padding: 13.5px;
+	}
+
+	h4 {
+		padding: 0 13.5px 0 13.5px;
+	}
+
+	.main_text {
+		font-size: 1.8em;
+		margin: 72px 25% -45px 25%;
+		height: 45px;
+	}
+
+}
+
+@media (max-height: 769px) and (min-height: 400px) {
+	.article {
+		margin-top: 70px;
+	}
+}
+
+@media (max-height: 825px) and (max-height: 770px) {
+	.page_btn, .page_btn1 {
+		font-size: 1.215em;
+		margin: 25px 1% 0 1%;
+	}
+
+	.page_btn:hover, .page_btn1:hover {
+		margin-top: 26.8px;
+	}
+
+	.page_btn:active, .page_btn1:active {
+		margin-top: 29.8px;
+	}
+
+	.page_btn {
+		padding: 6.3px 16.2px;
+	}
+
+	.page_btn1 {
+		padding: 0.9px 12.6px;
+	}
+}
+
+@media (max-height: 825px) and (min-height: 770px) {
+	.page_btn, .page_btn1 {
+		font-size: 1.215em;
+		margin: 25px 1% 0 1%;
+	}
+
+	.page_btn:hover, .page_btn1:hover {
+		margin-top: 26.8px;
+	}
+
+	.page_btn:active, .page_btn1:active {
+		margin-top: 29.8px;
+	}
+
+	.page_btn {
+		padding: 6.3px 16.2px;
+	}
+
+	.page_btn1 {
+		padding: 0.9px 12.6px;
+	}
+}
+
+@media (max-width: 1350px) and (min-width: 400px) {
+
+	.article a {
+		font-size: 0.9em;
+	}
+
+	.article {
+		width: 388.8px;
+		height: 432px;
+	}
+
+	.picture img {
+		width: 388.8px;
+	}
+
+	.article span {
+		font-size: 1.215em;
+	}
+
+	.description {
+		font-size: 0.9em;
+		padding: 12.15px;
+	}
+
+	h4 {
+		padding: 0 12.15px 0 12.15px;
+	}
+
+	.main_text {
+		font-size: 1.62em;
+		margin: 72px 25% -45px 25%;
+		height: 40.5px;
+	}
+}
+
+@media (max-width: 1250px), (max-height: 700px) {
+	.articles {
+		flex-direction: column;
+	}
+
+	footer {
+		margin-top: 50px;
+	}
+
+	.page_btn:hover, .page_btn1:hover {
+		margin-top: 26.8px;
+	}
+
+	.page_btn:active, .page_btn1:active {
+		margin-top: 29.8px;
+	}
+
+	.page_btn {
+		padding: 6.3px 16.2px;
+	}
+
+	.page_btn1 {
+		padding: 0.9px 12.6px;
+	}
+}
+
+@media (max-width: 420px) {
+
+	.article a {
+		padding: 3.75px 10.5px;
+		font-size: 0.675em;
+	}
+
+	.article {
+		width: 291.6px;
+		height: 324px;
+	}
+
+	.picture img {
+		width: 291.6px;
+	}
+
+	.article span {
+		font-size: 1em;
+	}
+
+	.description {
+		font-size: 0.65em;
+		padding: 3px 10px 5px 10px;
+	}
+
+	h4 {
+		font-size: 0.8em;
+		padding: 0 10.125px 0 10.125px;
+	}
+
+	.main_text {
+		font-size: 1.25em;
+	}
+
+}

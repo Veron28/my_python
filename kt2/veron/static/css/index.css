@@ -1,0 +1,40 @@
+
+.info>div{
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.title {
+	padding-top: 2%;
+	text-align: center;
+	margin-top: 5%;
+	font-size: 2em;
+}
+
+.imgs > a {
+	float: left;
+	margin-left: 10%;
+}
+
+.text {
+	font-size: 1.5em;
+	color: black;
+}
+
+.info {
+	margin: 0 2% 2% 2%;
+}
+
+.roulette, .lottery, .work, .hw {
+	margin-bottom: 4%;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+
+.text h3 {
+	color: black;
+	padding-bottom: 0.25%;
+}
