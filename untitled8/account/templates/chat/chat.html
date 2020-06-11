@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    {% for message in messages %}
+        <p align = "center" style="color:white">
+        {% if message.sender == current_user %}
+
+        {% endif %}
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀{{ message.sender.first_name}}: {{message.text}}
+        </p>
+    {% endfor %}
+      <style>
+      form {
+          text-align: center;
+      }
+      input {
+          text-align: center;
+      }
+      html {height: 100%; }
+      body {
+        background: url({% static "img/fonc.jpg" %});
+          background-size: 100%;
+      }
+      </style>
+     <form method="post" action="/chat/" text-align="center" >
+        {% csrf_token %}
+        <input type="text" name="text" style="text-align:center">
+        <input type="submit" class="btn btn-success" text-align="center" value="Отправить">
+    </form>
+{% endblock %}
